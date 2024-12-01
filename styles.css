@@ -1,0 +1,74 @@
+body {
+    background-color: #1a237e;  /* Dark blue background */
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #283593;  /* Slightly lighter blue */
+    border: 2px solid #3949ab;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.display {
+    background: #1a237e;  /* Dark blue display */
+    color: #fff;         /* White text */
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 28px;
+    min-height: 30px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+
+.digit {
+    background: #3949ab;  /* Blue buttons */
+}
+
+.operator {
+    background: #5c6bc0;  /* Lighter blue for operators */
+}
+
+.equals {
+    background: #7986cb;  /* Special color for equals */
+}
+
+.clear, .backspace {
+    background: #c62828;  /* Red for clear and backspace */
+}
+
+.decimal {
+    background: #3949ab;  /* Same as digits */
+}
+
+button:hover {
+    filter: brightness(120%);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+} 
