@@ -2,7 +2,7 @@
 A fully functional calculator built with vanilla JavaScript, featuring basic arithmetic operations and extra features like decimal support and keyboard input.
 
 #Live-Action
-[Live Preview](http://127.0.0.1:5500/index.html)
+[Live Preview(http://127.0.0.1:5500/index.html)]
 
 ## Project Requirements
 
